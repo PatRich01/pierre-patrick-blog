@@ -7,6 +7,14 @@
     "watch": "tailwindcss -i ./src/input.css -o ./dist/styles.css --watch"
   },
   "devDependencies": {
-    "tailwindcss": "3.4.17"
+    "autoprefixer": "^10.6.2",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "vite": "^8.3.5"
   }
 }
