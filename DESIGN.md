@@ -1,5 +1,5 @@
 ---
-name: Velvet & Ember
+name: Pierre Patrick
 colors:
   surface: '#131317'
   surface-dim: '#131317'

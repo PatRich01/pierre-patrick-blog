@@ -1,4 +1,4 @@
-# Pierre & Patrick Blog
+# Pierre Patrick Blog
 
 The page uses Tailwind CSS 3.4 with a local CLI build. Its theme configuration
 is in `tailwind.config.cjs`, and the CSS source is `src/input.css`.
