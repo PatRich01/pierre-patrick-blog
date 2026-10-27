@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./dist/styles.css --minify",
+    "dev": "vite --host 0.0.0.0",
+    "prebuild": "npm run build:css",
+    "build": "vite build",
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/styles.css --minify",
+    "preview": "vite preview --host 0.0.0.0",
     "watch": "tailwindcss -i ./src/input.css -o ./dist/styles.css --watch"
   },
   "devDependencies": {
