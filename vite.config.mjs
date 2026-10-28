@@ -5,6 +5,9 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'build',
+    rollupOptions: {
+      input: ['index.html', 'code.html'],
+    },
   },
   server: {
     host: '0.0.0.0',

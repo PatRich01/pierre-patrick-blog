@@ -10,7 +10,8 @@ npm install
 npm run build
 ```
 
-Open `code.html` in a browser after building. The generated `dist/styles.css`
-is checked in so the page is styled without running the build first.
+The Vite build includes both the React app (`build/index.html`) and the
+standalone editorial page (`build/code.html`). The generated `dist/styles.css`
+is checked in so the source page is styled without running the build first.
 
 Run `npm run watch` while editing to rebuild the stylesheet automatically.
